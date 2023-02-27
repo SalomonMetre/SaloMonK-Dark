@@ -2,8 +2,8 @@
   "name": "salomonk-dark",
   "displayName": "SaloMonK Dark",
   "description": "The Dark Theme of your (my?) dreams !",
-  "icon":"images/logo.jpeg",
-  "version": "1.0.1",
+  "icon": "images/logo.jpeg",
+  "version": "1.0.2",
   "publisher": "SalomonMetre",
   "repository": {
     "type": "git",
