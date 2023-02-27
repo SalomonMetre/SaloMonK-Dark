@@ -2,6 +2,7 @@
   "name": "salomonk-dark",
   "displayName": "SaloMonK Dark",
   "description": "The Dark Theme of your (my?) dreams !",
+  "icon":"images/logo.jpeg",
   "version": "1.0.1",
   "publisher": "SalomonMetre",
   "repository": {
