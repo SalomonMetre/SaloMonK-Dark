@@ -2,11 +2,11 @@
   "name": "salomonk-dark",
   "displayName": "SaloMonK Dark",
   "description": "The Dark Theme of your (my?) dreams !",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "SalomonMetre",
   "repository": {
-    "type":"git",
-    "url":"https://github.com/SalomonMetre/SaloMonk-Dark"
+    "type": "git",
+    "url": "https://github.com/SalomonMetre/SaloMonk-Dark"
   },
   "keywords": [
     "dark",
