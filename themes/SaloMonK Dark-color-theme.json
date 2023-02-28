@@ -188,8 +188,8 @@
 				"entity.other.inherited-class",
 			],
 			"settings": {
-				"foreground": "#ffc400",
-				"fontStyle": ""
+				"foreground": "#79FCF5",
+				"fontStyle": "bold",
 			}
 		},
 		{
