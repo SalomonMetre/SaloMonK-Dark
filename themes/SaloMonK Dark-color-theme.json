@@ -1,10 +1,10 @@
 {
 	"name": "SaloMonK Dark",
 	"colors": {
-		"editor.background": "#222323",
+		"editor.background": "#222222",
 		"editor.foreground": "#eeffff",
-		"editor.lineHighlightBackground": "#070707",
-		"editor.wordHighlightBackground": "#0f0c16",
+		"editor.lineHighlightBackground": "#1b1b1b",
+		"editor.wordHighlightBackground": "#020022",
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb"
 	},
@@ -62,8 +62,8 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#ffffff",
-				"fontStyle": "bold",
+				"foreground": "#fcec5a",
+				"fontStyle": "italic",
 			}
 		},
 		{
@@ -73,7 +73,8 @@
 				"storage.type",
 			],
 			"settings": {
-				"foreground": "#00eeff"
+				"foreground": "#00ffaa",
+				"fontStyle": "",
 			}
 		},
 		{
@@ -113,8 +114,8 @@
 				"support.function",
 			],
 			"settings": {
-				"foreground": "#fbff00",
-				"fontStyle": "bold",
+				"foreground": "#e5ff00",
+				"fontStyle": "",
 			}
 		},
 		{
@@ -123,8 +124,8 @@
 				"entity.name.function",
 			],
 			"settings": {
-				"foreground": "#00ffc8",
-				"fontStyle": "bold",
+				"foreground": "#00b7ff",
+				"fontStyle": "",
 			}
 		},
 		{
@@ -179,7 +180,7 @@
 			],
 			"settings": {
 				"foreground": "#15c783",
-				"fontStyle": "bold"
+				"fontStyle": ""
 			}
 		},
 		{
@@ -187,8 +188,8 @@
 				"entity.other.inherited-class",
 			],
 			"settings": {
-				"foreground": "#dac82a",
-				"fontStyle": "bold"
+				"foreground": "#ffc400",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -226,7 +227,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#00ffaa",
+				"foreground": "#79fcf5",
 				"fontStyle": "",
 			}
 		},
@@ -546,8 +547,8 @@
 				"markup.bold string"
 			],
 			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#f07178"
+				"fontStyle": "",
+				"foreground": "#ffe600"
 			}
 		},
 		{
