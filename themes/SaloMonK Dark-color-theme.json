@@ -1,7 +1,7 @@
 {
 	"name": "SaloMonK Dark",
 	"colors": {
-		"editor.background": "#252525",
+		"editor.background": "#232323",
 		"editor.foreground": "#eeffff",
 		"editor.lineHighlightBackground": "#1b1b1b",
 		"editor.wordHighlightBackground": "#020022",
@@ -197,7 +197,7 @@
 				"string",
 			],
 			"settings": {
-				"foreground": "#dbf386",
+				"foreground": "#fff784",
 				"fontStyle": "",
 			}
 		},
