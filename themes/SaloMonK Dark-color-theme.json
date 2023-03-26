@@ -1,13 +1,13 @@
 {
 	"name": "SaloMonK Dark",
 	"colors": {
-		"editor.background": "#1b0700",
+		"editor.background": "#1d1d1d",
 		"editor.foreground": "#eeffff",
-		"editor.lineHighlightBackground": "#1b1b1b",
+		"editor.lineHighlightBackground": "#101010",
 		"editor.wordHighlightBackground": "#020022",
-		"activityBarBadge.background": "#1b0700",
+		"activityBarBadge.background": "#1d1d1d",
 		"sideBarTitle.foreground": "#bbbbbb",
-		"sideBar.background": "#1b0700",
+		"sideBar.background": "#1d1d1d",
 	},
 	"tokenColors": [
 		{
