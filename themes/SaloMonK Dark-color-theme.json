@@ -1,13 +1,13 @@
 {
 	"name": "SaloMonK Dark",
 	"colors": {
-		"editor.background": "#1d1d1d",
+		"editor.background": "#242424",
 		"editor.foreground": "#eeffff",
 		"editor.lineHighlightBackground": "#101010",
 		"editor.wordHighlightBackground": "#020022",
-		"activityBarBadge.background": "#1d1d1d",
+		"activityBarBadge.background": "#242424",
 		"sideBarTitle.foreground": "#bbbbbb",
-		"sideBar.background": "#1d1d1d",
+		"sideBar.background": "#242424",
 	},
 	"tokenColors": [
 		{
@@ -63,8 +63,8 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#fcec5a",
-				"fontStyle": "italic",
+				"foreground": "#ffc250",
+				"fontStyle": "bold",
 			}
 		},
 		{
@@ -95,7 +95,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#00ff4c",
+				"foreground": "#fbff00",
 				"fontStyle": "",
 			}
 		},
@@ -115,7 +115,7 @@
 				"support.function",
 			],
 			"settings": {
-				"foreground": "#fbff00",
+				"foreground": "#ff9100",
 				"fontStyle": "",
 			}
 		},
@@ -180,8 +180,8 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#15c783",
-				"fontStyle": ""
+				"foreground": "#00ff9d",
+				"fontStyle": "bold",
 			}
 		},
 		{
@@ -198,7 +198,7 @@
 				"string",
 			],
 			"settings": {
-				"foreground": "#fff784",
+				"foreground": "#56ff64",
 				"fontStyle": "",
 			}
 		},
