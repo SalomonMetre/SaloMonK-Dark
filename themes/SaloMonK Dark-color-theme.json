@@ -1,13 +1,13 @@
 {
 	"name": "SaloMonK Dark",
 	"colors": {
-		"editor.background": "#0e0606",
-		"editor.foreground": "#eeffff",
+		"editor.background": "#181818",
+		"editor.foreground": "#ffffff",
 		"editor.lineHighlightBackground": "#101010",
 		"editor.wordHighlightBackground": "#020022",
-		"activityBarBadge.background": "#0e0606",
+		"activityBarBadge.background": "#181818",
 		"sideBarTitle.foreground": "#bbbbbb",
-		"sideBar.background": "#0e0606",
+		"sideBar.background": "#181818",
 	},
 	"tokenColors": [
 		{
@@ -31,12 +31,22 @@
 			}
 		},
 		{
+			"name": "Instance variables Dart",
+			"scope": [
+				"source.dart"
+			],
+			"settings": {
+				"foreground": "#FFFFFF",
+				"fontStyle": "",
+			}
+		},
+		{
 			"name": "Variables",
 			"scope": [
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#FFFFFF"
 			}
 		},
 		{
@@ -63,7 +73,7 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#ffc250",
+				"foreground": "#fffd8e",
 				"fontStyle": "bold",
 			}
 		},
@@ -74,8 +84,8 @@
 				"storage.type",
 			],
 			"settings": {
-				"foreground": "#00ffaa",
-				"fontStyle": "",
+				"foreground": "#ffb648",
+				"fontStyle": "bold",
 			}
 		},
 		{
@@ -115,7 +125,7 @@
 				"support.function",
 			],
 			"settings": {
-				"foreground": "#ff9100",
+				"foreground": "#ffb259",
 				"fontStyle": "",
 			}
 		},
@@ -125,7 +135,7 @@
 				"entity.name.function",
 			],
 			"settings": {
-				"foreground": "#00b7ff",
+				"foreground": "#5dffff",
 				"fontStyle": "",
 			}
 		},
@@ -171,7 +181,7 @@
 				"keyword.other.unit",
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#ff6e42"
 			}
 		},
 		{
@@ -198,7 +208,7 @@
 				"string",
 			],
 			"settings": {
-				"foreground": "#56ff64",
+				"foreground": "#00ffea",
 				"fontStyle": "",
 			}
 		},
@@ -228,7 +238,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#79fcf5",
+				"foreground": "#32ff76",
 				"fontStyle": "",
 			}
 		},
@@ -499,7 +509,7 @@
 				"punctuation.definition.list_item.markdown"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#FFFFFF"
 			}
 		},
 		{
@@ -657,7 +667,7 @@
 				"punctuation.section.class.end"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#ffFFFF"
 			}
 		},
 		{
@@ -685,7 +695,7 @@
 				"markup.table"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#FFFFFF"
 			}
 		}
 	]
