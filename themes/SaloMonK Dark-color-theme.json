@@ -84,7 +84,7 @@
 				"storage.type",
 			],
 			"settings": {
-				"foreground": "#ffb648",
+				"foreground": "#eda7ff",
 				"fontStyle": "bold",
 			}
 		},
@@ -208,7 +208,7 @@
 				"string",
 			],
 			"settings": {
-				"foreground": "#00ffea",
+				"foreground": "#ffd45f",
 				"fontStyle": "",
 			}
 		},
