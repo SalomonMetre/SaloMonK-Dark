@@ -30,5 +30,8 @@
         "path": "./themes/SaloMonK Dark-color-theme.json"
       }
     ]
+  },
+  "dependencies": {
+    "generator-example-yeo": "^5.0.1"
   }
 }
