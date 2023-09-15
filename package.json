@@ -32,6 +32,7 @@
     ]
   },
   "dependencies": {
-    "generator-example-yeo": "^5.0.1"
+    "generator-example-yeo": "^5.0.1",
+    "yeo": "^0.0.0"
   }
 }
