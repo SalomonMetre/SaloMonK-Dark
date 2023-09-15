@@ -81,10 +81,19 @@
 			"name": "Keyword, Storage",
 			"scope": [
 				"keyword",
-				"storage.type",
 			],
 			"settings": {
 				"foreground": "#0093ce",
+				"fontStyle": "bold",
+			}
+		},
+		{
+			"name": "Keyword, Storage",
+			"scope": [
+				"storage.type",
+			],
+			"settings": {
+				"foreground": "#ffa938",
 				"fontStyle": "bold",
 			}
 		},
