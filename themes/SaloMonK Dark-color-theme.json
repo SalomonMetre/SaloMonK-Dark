@@ -1,13 +1,13 @@
 {
 	"name": "SaloMonK Dark",
 	"colors": {
-		"editor.background": "#212121",
+		"editor.background": "#1f1f1f",
 		"editor.foreground": "#ffffff",
-		"editor.lineHighlightBackground": "#222222",
-		"editor.wordHighlightBackground": "#1a1717",
-		"activityBarBadge.background": "#212121",
+		"editor.lineHighlightBackground": "#191919",
+		"editor.wordHighlightBackground": "#171717",
+		"activityBarBadge.background": "#1f1f1f",
 		"sideBarTitle.foreground": "#bbbbbb",
-		"sideBar.background": "#212121",
+		"sideBar.background": "#1f1f1f",
 	},
 	"tokenColors": [
 		{
@@ -134,7 +134,8 @@
 				"support.function",
 			],
 			"settings": {
-				"foreground": "#48ff94",
+				// "foreground": "#48ff94",
+				"foreground": "#0f9fff",
 				"fontStyle": "",
 			}
 		},
@@ -145,7 +146,7 @@
 			],
 			"settings": {
 				"foreground": "#0f9fff",
-				"fontStyle": "normal",
+				"fontStyle": "",
 			}
 		},
 		{
@@ -156,7 +157,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#00ffd5"
+				"foreground": "#0f9fff"
 			}
 		},
 		{
@@ -165,7 +166,7 @@
 				"meta.block variable.other"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -199,7 +200,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#00ffd5",
+				"foreground": "#fbff01f5",
 				"fontStyle": "normal",
 			}
 		},
@@ -217,7 +218,7 @@
 				"string",
 			],
 			"settings": {
-				"foreground": "#ffffff",
+				"foreground": "#00c0c0",
 				"fontStyle": "",
 			}
 		},
@@ -248,7 +249,7 @@
 			],
 			"settings": {
 				"foreground": "#00ff88",
-				"fontStyle": "italic",
+				"fontStyle": "",
 			}
 		},
 		{
@@ -386,7 +387,7 @@
 				"string.regexp"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#0F9FFF"
 			}
 		},
 		{
