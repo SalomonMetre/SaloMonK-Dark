@@ -73,7 +73,7 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#00ffd5",
+				"foreground": "#57ff88",
 				"fontStyle": "normal",
 			}
 		},
@@ -83,7 +83,7 @@
 				"keyword",
 			],
 			"settings": {
-				"foreground": "#00ffd5",
+				"foreground": "#ffe282",
 				"fontStyle": "normal",
 			}
 		},
@@ -145,7 +145,7 @@
 				"entity.name.function",
 			],
 			"settings": {
-				"foreground": "#0f9fff",
+				"foreground": "#00a0ff",
 				"fontStyle": "",
 			}
 		},
@@ -200,7 +200,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#fbff01f5",
+				"foreground": "#57FF89",
 				"fontStyle": "normal",
 			}
 		},
@@ -218,7 +218,7 @@
 				"string",
 			],
 			"settings": {
-				"foreground": "#00c0c0",
+				"foreground": "#51ff00",
 				"fontStyle": "",
 			}
 		},
@@ -248,7 +248,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#00ff88",
+				"foreground": "#33ffe4",
 				"fontStyle": "",
 			}
 		},
@@ -293,7 +293,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#fbff01f5"
+				"foreground": "#ffcc3ef5"
 			}
 		},
 		{
