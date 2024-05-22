@@ -134,7 +134,6 @@
 				"support.function",
 			],
 			"settings": {
-				// "foreground": "#48ff94",
 				"foreground": "#0f9fff",
 				"fontStyle": "",
 			}
@@ -145,7 +144,7 @@
 				"entity.name.function",
 			],
 			"settings": {
-				"foreground": "#00a0ff",
+				"foreground": "#c78d45",
 				"fontStyle": "",
 			}
 		},
