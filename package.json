@@ -1,13 +1,13 @@
 {
   "name": "cs-monk-dark",
   "displayName": "CS Monk Theme",
-  "description": "The Dark Theme of your (my?) dreams !",
+  "description": "The Dark Theme of your (my?) dreams!",
   "icon": "images/logo.jpeg",
   "version": "1.2.4",
   "publisher": "SalomonKulondwa",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SalomonMetre/SaloMonk-Dark"
+    "url": "https://github.com/SalomonMetre/SaloMonK-Dark"
   },
   "keywords": [
     "dark",
@@ -30,9 +30,5 @@
         "path": "./themes/SaloMonK Dark-color-theme.json"
       }
     ]
-  },
-  "dependencies": {
-    "generator-example-yeo": "^5.0.1",
-    "yeo": "^0.0.0"
   }
 }
