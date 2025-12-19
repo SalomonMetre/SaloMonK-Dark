@@ -1,28 +1,28 @@
 {
-    "name": "SaloMonK Elemental Final v5",
+    "name": "SaloMonK Elemental Final v5 - True Teal with Python-Specific Adjustments",
     "type": "dark",
     "colors": {
         "editor.background": "#1e1e1e",
-        "editor.foreground": "#C0C0C0",
-        "editor.lineHighlightBackground": "#2e2b2b",
-        "editor.wordHighlightBackground": "#3C3C30",
-        "editorCursor.foreground": "#61ACAB",
-        "editor.selectionBackground": "#3C3C30",
-        "activityBarBadge.background": "#497f7d",
+        "editor.foreground": "#D8D8D8",
+        "editor.lineHighlightBackground": "#282828",
+        "editor.wordHighlightBackground": "#505040",
+        "editorCursor.foreground": "#70C0BF",
+        "editor.selectionBackground": "#505040",
+        "activityBarBadge.background": "#70C0BF",
         "activityBarBadge.foreground": "#ffffff",
-        "sideBarTitle.foreground": "#a09a94",
+        "sideBarTitle.foreground": "#C0C0C0",
         "sideBar.background": "#1e1e1e",
-        "sideBar.foreground": "#a09a94",
+        "sideBar.foreground": "#C0C0C0",
         "statusBar.background": "#1e1e1e",
-        "statusBar.foreground": "#a09a94",
+        "statusBar.foreground": "#C0C0C0",
         "titleBar.activeBackground": "#1e1e1e",
-        "titleBar.activeForeground": "#a09a94",
+        "titleBar.activeForeground": "#C0C0C0",
         "editorGroupHeader.tabsBackground": "#1e1e1e",
         "tab.activeBackground": "#1e1e1e",
         "tab.activeForeground": "#ffffff",
-        "tab.activeBorderTop": "#61ACAB",
+        "tab.activeBorderTop": "#70C0BF",
         "tab.inactiveBackground": "#1e1e1e",
-        "tab.inactiveForeground": "#808080"
+        "tab.inactiveForeground": "#A0A0A0"
     },
     "tokenColors": [
         {
@@ -33,7 +33,7 @@
             ],
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#808080"
+                "foreground": "#959595"
             }
         },
         {
@@ -42,7 +42,7 @@
                 "string.quoted"
             ],
             "settings": {
-                "foreground": "#808080"
+                "foreground": "#A8A8A8"
             }
         },
         {
@@ -51,7 +51,7 @@
                 "source"
             ],
             "settings": {
-                "foreground": "#C0C0C0"
+                "foreground": "#D8D8D8"
             }
         },
         {
@@ -67,12 +67,29 @@
                 "meta.delimiter"
             ],
             "settings": {
-                "foreground": "#a09a94",
+                "foreground": "#B8B8B8",
                 "fontStyle": ""
             }
         },
         {
-            "name": "Keywords & Storage (Midpoint Teal Normal)",
+            "name": "Python Source Override (No Italic)",
+            "scope": "source.python",
+            "settings": {
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "Python Function Call Override (No Italic)",
+            "scope": [
+                "meta.function-call.python",
+                "meta.function-call.arguments.python"
+            ],
+            "settings": {
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "Keywords & Storage (True Teal)",
             "scope": [
                 "keyword",
                 "keyword.control",
@@ -82,12 +99,12 @@
                 "storage.type"
             ],
             "settings": {
-                "foreground": "#61ACAB",
+                "foreground": "#70C0BF",
                 "fontStyle": "normal"
             }
         },
         {
-            "name": "Classes (Dark Teal Bold)",
+            "name": "Classes (Darker Teal Italic)",
             "scope": [
                 "entity.name.type",
                 "support.class",
@@ -96,12 +113,12 @@
                 "entity.name.class"
             ],
             "settings": {
-                "foreground": "#497f7d",
-                "fontStyle": "bold"
+                "foreground": "#5A9A98",
+                "fontStyle": "italic"
             }
         },
         {
-            "name": "Functions (Pure White)",
+            "name": "Functions (Pure White Italic)",
             "scope": [
                 "entity.name.function",
                 "meta.function-call",
@@ -111,11 +128,11 @@
             ],
             "settings": {
                 "foreground": "#ffffff",
-                "fontStyle": ""
+                "fontStyle": "italic"
             }
         },
         {
-            "name": "Template Strings / Symbols (Midpoint Teal)",
+            "name": "Template Strings / Symbols (True Teal)",
             "scope": [
                 "string",
                 "string.template",
@@ -123,7 +140,7 @@
                 "constant.other.key"
             ],
             "settings": {
-                "foreground": "#61ACAB"
+                "foreground": "#70C0BF"
             }
         },
         {
@@ -141,33 +158,33 @@
             }
         },
         {
-            "name": "Attributes (Light Blue Italic)",
+            "name": "Attributes (True Teal Normal)",
             "scope": [
                 "entity.other.attribute-name",
                 "variable.parameter"
             ],
             "settings": {
-                "foreground": "#96C3E8",
-                "fontStyle": "italic"
+                "foreground": "#70C0BF",
+                "fontStyle": ""
             }
         },
         {
-            "name": "Tags (Teal Normal)",
+            "name": "Tags (Darker Teal)",
             "scope": [
                 "entity.name.tag",
                 "meta.tag.sgml"
             ],
             "settings": {
-                "foreground": "#497f7d"
+                "foreground": "#5A9A98"
             }
         },
         {
-            "name": "JSON Keys (Midpoint Teal)",
+            "name": "JSON Keys (True Teal)",
             "scope": [
                 "support.type.property-name.json"
             ],
             "settings": {
-                "foreground": "#61ACAB"
+                "foreground": "#70C0BF"
             }
         },
         {
@@ -182,12 +199,12 @@
             }
         },
         {
-            "name": "Markdown - Link (Midpoint Teal)",
+            "name": "Markdown - Link (True Teal)",
             "scope": [
                 "string.other.link.title.markdown"
             ],
             "settings": {
-                "foreground": "#61ACAB"
+                "foreground": "#70C0BF"
             }
         },
         {
