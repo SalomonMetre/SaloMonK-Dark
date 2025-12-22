@@ -1,27 +1,27 @@
 {
-    "name": "SaloMonK Elemental Final v5 - True Teal with Python-Specific Adjustments",
+    "name": "SaloMonK Elemental Final v6 - True Teal with Python-Specific Adjustments",
     "type": "dark",
     "colors": {
-        "editor.background": "#1e1e1e",
+        "editor.background": "#212121",
         "editor.foreground": "#D8D8D8",
-        "editor.lineHighlightBackground": "#282828",
+        "editor.lineHighlightBackground": "#2c2c2c",
         "editor.wordHighlightBackground": "#505040",
         "editorCursor.foreground": "#70C0BF",
         "editor.selectionBackground": "#505040",
         "activityBarBadge.background": "#70C0BF",
         "activityBarBadge.foreground": "#ffffff",
         "sideBarTitle.foreground": "#C0C0C0",
-        "sideBar.background": "#1e1e1e",
+        "sideBar.background": "#212121",
         "sideBar.foreground": "#C0C0C0",
-        "statusBar.background": "#1e1e1e",
+        "statusBar.background": "#212121",
         "statusBar.foreground": "#C0C0C0",
-        "titleBar.activeBackground": "#1e1e1e",
+        "titleBar.activeBackground": "#212121",
         "titleBar.activeForeground": "#C0C0C0",
-        "editorGroupHeader.tabsBackground": "#1e1e1e",
-        "tab.activeBackground": "#1e1e1e",
+        "editorGroupHeader.tabsBackground": "#212121",
+        "tab.activeBackground": "#212121",
         "tab.activeForeground": "#ffffff",
         "tab.activeBorderTop": "#70C0BF",
-        "tab.inactiveBackground": "#1e1e1e",
+        "tab.inactiveBackground": "#212121",
         "tab.inactiveForeground": "#A0A0A0"
     },
     "tokenColors": [
@@ -37,12 +37,12 @@
             }
         },
         {
-            "name": "Quoted Strings (Neutral Grey)",
+            "name": "Quoted Strings (Lighter Silver)",
             "scope": [
                 "string.quoted"
             ],
             "settings": {
-                "foreground": "#A8A8A8"
+                "foreground": "#CCCCCC"
             }
         },
         {
@@ -99,8 +99,8 @@
                 "storage.type"
             ],
             "settings": {
-                "foreground": "#70C0BF",
-                "fontStyle": "normal"
+                "foreground": "#96fffd",
+                "fontStyle": "italic"
             }
         },
         {
@@ -118,19 +118,19 @@
             }
         },
         {
-            "name": "Functions (Pure White Italic)",
-            "scope": [
-                "entity.name.function",
-                "meta.function-call",
-                "variable.function",
-                "support.function",
-                "keyword.other.special-method"
-            ],
-            "settings": {
-                "foreground": "#ffffff",
-                "fontStyle": "italic"
-            }
-        },
+        "name": "Functions (Pure White Bold Italic)",
+        "scope": [
+            "meta.function-call",
+            "entity.name.function",
+            "variable.function",
+            "support.function",
+            "keyword.other.special-method"
+        ],
+        "settings": {
+            "foreground": "#00b0bd",
+            "fontStyle": "italic"
+        }
+    },
         {
             "name": "Template Strings / Symbols (True Teal)",
             "scope": [
