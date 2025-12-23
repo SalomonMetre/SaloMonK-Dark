@@ -2,26 +2,26 @@
     "name": "SaloMonK Elemental Final v6 - True Teal with Python-Specific Adjustments",
     "type": "dark",
     "colors": {
-        "editor.background": "#212121",
+        "editor.background": "#1b1b1b",
         "editor.foreground": "#D8D8D8",
-        "editor.lineHighlightBackground": "#2c2c2c",
-        "editor.wordHighlightBackground": "#505040",
+        "editor.lineHighlightBackground": "#232323",
+        "editor.wordHighlightBackground": "#313131",
         "editorCursor.foreground": "#70C0BF",
-        "editor.selectionBackground": "#505040",
+        "editor.selectionBackground": "#232323",
         "activityBarBadge.background": "#70C0BF",
         "activityBarBadge.foreground": "#ffffff",
         "sideBarTitle.foreground": "#C0C0C0",
-        "sideBar.background": "#212121",
+        "sideBar.background": "#1b1b1b",
         "sideBar.foreground": "#C0C0C0",
-        "statusBar.background": "#212121",
+        "statusBar.background": "#1b1b1b",
         "statusBar.foreground": "#C0C0C0",
-        "titleBar.activeBackground": "#212121",
+        "titleBar.activeBackground": "#1b1b1b",
         "titleBar.activeForeground": "#C0C0C0",
-        "editorGroupHeader.tabsBackground": "#212121",
-        "tab.activeBackground": "#212121",
+        "editorGroupHeader.tabsBackground": "#1b1b1b",
+        "tab.activeBackground": "#232323",
         "tab.activeForeground": "#ffffff",
-        "tab.activeBorderTop": "#70C0BF",
-        "tab.inactiveBackground": "#212121",
+        "tab.activeBorderTop": "#96fffd",
+        "tab.inactiveBackground": "#1b1b1b",
         "tab.inactiveForeground": "#A0A0A0"
     },
     "tokenColors": [
@@ -127,7 +127,7 @@
             "keyword.other.special-method"
         ],
         "settings": {
-            "foreground": "#00b0bd",
+            "foreground": "#00c5b5",
             "fontStyle": "italic"
         }
     },
