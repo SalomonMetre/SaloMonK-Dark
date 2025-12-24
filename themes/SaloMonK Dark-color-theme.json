@@ -5,9 +5,23 @@
         "editor.background": "#1b1b1b",
         "editor.foreground": "#D8D8D8",
         "editor.lineHighlightBackground": "#232323",
-        "editor.wordHighlightBackground": "#313131",
         "editorCursor.foreground": "#70C0BF",
-        "editor.selectionBackground": "#232323",
+
+        // SELECTION: Distinct Teal (Opacity 55)
+        // This is the only thing that will have color in your editor.
+        "editor.selectionBackground": "#426e6e55",
+
+        // AUTOMATIC MATCHES: Invisible
+        // Prevents other words from lighting up when you select text.
+        "editor.selectionHighlightBackground": "#00000000",
+
+        // VARIABLE HIGHLIGHTS: Dark Grey
+        // When you click a variable, other instances become slightly lighter grey.
+        // No color, just contrast.
+        "editor.wordHighlightBackground": "#2A2A2A",
+        "editor.wordHighlightStrongBackground": "#2A2A2A",
+
+        // UI Colors (kept exactly as you like them)
         "activityBarBadge.background": "#70C0BF",
         "activityBarBadge.foreground": "#ffffff",
         "sideBarTitle.foreground": "#C0C0C0",
@@ -23,7 +37,7 @@
         "tab.activeBorderTop": "#96fffd",
         "tab.inactiveBackground": "#1b1b1b",
         "tab.inactiveForeground": "#A0A0A0"
-    },
+},
     "tokenColors": [
         {
             "name": "Comment (Neutral Grey Italic)",
@@ -99,8 +113,8 @@
                 "storage.type"
             ],
             "settings": {
-                "foreground": "#96fffd",
-                "fontStyle": "italic"
+                "foreground": "#80dfdd",
+                "fontStyle": "normal"
             }
         },
         {
@@ -113,8 +127,8 @@
                 "entity.name.class"
             ],
             "settings": {
-                "foreground": "#5A9A98",
-                "fontStyle": "italic"
+                "foreground": "#ffffff",
+                "fontStyle": "bold italic"
             }
         },
         {
