@@ -1,43 +1,44 @@
 {
-    "name": "Harper - Teal Hybrid Final (Perfected Comments)",
+    "name": "Harper - Teal Hybrid Final (Obsidian Umber)",
     "type": "dark",
     "colors": {
-        // BACKGROUND: Soft Charcoal
-        "editor.background": "#232323",
-        "editor.foreground": "#CFCBC4",
+        // BACKGROUND: Obsidian Umber (Near-Black Warmth)
+        "editor.background": "#201D1C",
+        "editor.foreground": "#E6E4E1",
         
-        // HIGHLIGHTS
-        "editor.lineHighlightBackground": "#2F2F2F",
+        // HIGHLIGHTS: Subtle Espresso
+        "editor.lineHighlightBackground": "#2C2928",
         
-        "editorCursor.foreground": "#D89D38",
+        // CURSOR: Clear Sky Slate
+        "editorCursor.foreground": "#ABCDE3",
 
-        // SELECTION: Deep Gold (Opacity 40)
-        "editor.selectionBackground": "#D89D3866",
+        // SELECTION: Clear Sky Slate (Opacity 40)
+        "editor.selectionBackground": "#ABCDE366",
 
         // AUTOMATIC MATCHES: Invisible
         "editor.selectionHighlightBackground": "#00000000",
 
-        // VARIABLE HIGHLIGHTS
-        "editor.wordHighlightBackground": "#353535",
-        "editor.wordHighlightStrongBackground": "#353535",
+        // VARIABLE HIGHLIGHTS: Warm Slate
+        "editor.wordHighlightBackground": "#383534",
+        "editor.wordHighlightStrongBackground": "#383534",
 
         // UI Colors
-        "activityBarBadge.background": "#D89D38",
+        "activityBarBadge.background": "#ABCDE3",
         "activityBarBadge.foreground": "#151515",
         "sideBarTitle.foreground": "#909090",
-        "sideBar.background": "#232323",
+        "sideBar.background": "#201D1C",
         "sideBar.foreground": "#A8A49D",
-        "statusBar.background": "#232323",
+        "statusBar.background": "#201D1C",
         "statusBar.foreground": "#909090",
-        "titleBar.activeBackground": "#232323",
+        "titleBar.activeBackground": "#201D1C",
         "titleBar.activeForeground": "#A8A49D",
-        "editorGroupHeader.tabsBackground": "#232323",
+        "editorGroupHeader.tabsBackground": "#201D1C",
         
         // TABS
-        "tab.activeBackground": "#2F2F2F",
+        "tab.activeBackground": "#2C2928",
         "tab.activeForeground": "#FEFBEA",
-        "tab.activeBorderTop": "#D89D38",
-        "tab.inactiveBackground": "#232323",
+        "tab.activeBorderTop": "#ABCDE3",
+        "tab.inactiveBackground": "#201D1C",
         "tab.inactiveForeground": "#726E6A"
     },
     "tokenColors": [
@@ -53,21 +54,21 @@
             }
         },
         {
-            "name": "Quoted Strings (Harper Green)",
+            "name": "Quoted Strings (Pale Slate Brown)",
             "scope": [
                 "string.quoted"
             ],
             "settings": {
-                "foreground": "#489E48"
+                "foreground": "#D6C9C0"
             }
         },
         {
-            "name": "Base Source (Warm Silver)",
+            "name": "Base Source (Pale Platinum)",
             "scope": [
                 "source"
             ],
             "settings": {
-                "foreground": "#CFCBC4"
+                "foreground": "#E6E4E1"
             }
         },
         {
@@ -120,7 +121,7 @@
             }
         },
         {
-            "name": "Classes (Warm Silver Bold Italic)",
+            "name": "Classes (Pale Platinum Bold Italic)",
             "scope": [
                 "entity.name.type",
                 "support.class",
@@ -129,12 +130,12 @@
                 "entity.name.class"
             ],
             "settings": {
-                "foreground": "#CFCBC4",
+                "foreground": "#E6E4E1",
                 "fontStyle": "bold italic"
             }
         },
         {
-            "name": "Functions (Deep Gold Italic)",
+            "name": "Functions (Clear Sky Slate Italic)",
             "scope": [
                 "meta.function-call",
                 "entity.name.function",
@@ -143,7 +144,7 @@
                 "keyword.other.special-method"
             ],
             "settings": {
-                "foreground": "#D89D38",
+                "foreground": "#ABCDE3",
                 "fontStyle": "italic"
             }
         },
