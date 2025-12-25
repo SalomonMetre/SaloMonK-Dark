@@ -1,13 +1,13 @@
 {
-    "name": "Harper - Teal Hybrid Final (Dark Graphite)",
+    "name": "Harper - Teal Hybrid Final (Night Onyx)",
     "type": "dark",
     "colors": {
-        // BACKGROUND: Dark Graphite (Neutral Deep Grey)
-        "editor.background": "#1F1F1F",
+        // BACKGROUND: Night Onyx (Near-Black Void)
+        "editor.background": "#111111",
         "editor.foreground": "#E6E4E1",
         
-        // HIGHLIGHTS: Slightly lighter graphite
-        "editor.lineHighlightBackground": "#2A2A2A",
+        // HIGHLIGHTS: Dark Charcoal
+        "editor.lineHighlightBackground": "#1F1F1F",
         
         // CURSOR: Clear Sky Slate
         "editorCursor.foreground": "#ABCDE3",
@@ -18,27 +18,27 @@
         // AUTOMATIC MATCHES: Invisible
         "editor.selectionHighlightBackground": "#00000000",
 
-        // VARIABLE HIGHLIGHTS: Mid Grey
-        "editor.wordHighlightBackground": "#333333",
-        "editor.wordHighlightStrongBackground": "#333333",
+        // VARIABLE HIGHLIGHTS: Deep Grey
+        "editor.wordHighlightBackground": "#2A2A2A",
+        "editor.wordHighlightStrongBackground": "#2A2A2A",
 
         // UI Colors
         "activityBarBadge.background": "#ABCDE3",
         "activityBarBadge.foreground": "#151515",
         "sideBarTitle.foreground": "#909090",
-        "sideBar.background": "#1F1F1F",
+        "sideBar.background": "#111111",
         "sideBar.foreground": "#A8A49D",
-        "statusBar.background": "#1F1F1F",
+        "statusBar.background": "#111111",
         "statusBar.foreground": "#909090",
-        "titleBar.activeBackground": "#1F1F1F",
+        "titleBar.activeBackground": "#111111",
         "titleBar.activeForeground": "#A8A49D",
-        "editorGroupHeader.tabsBackground": "#1F1F1F",
+        "editorGroupHeader.tabsBackground": "#111111",
         
         // TABS
-        "tab.activeBackground": "#2A2A2A",
+        "tab.activeBackground": "#1F1F1F",
         "tab.activeForeground": "#FEFBEA",
         "tab.activeBorderTop": "#ABCDE3",
-        "tab.inactiveBackground": "#1F1F1F",
+        "tab.inactiveBackground": "#111111",
         "tab.inactiveForeground": "#726E6A"
     },
     "tokenColors": [
