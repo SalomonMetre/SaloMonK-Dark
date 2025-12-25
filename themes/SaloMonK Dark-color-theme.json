@@ -12,8 +12,8 @@
         // CURSOR: Clear Sky Slate
         "editorCursor.foreground": "#ABCDE3",
 
-        // SELECTION: Clear Sky Slate (Opacity 40)
-        "editor.selectionBackground": "#ABCDE366",
+        // SELECTION: Clear Sky Slate (Opacity Reverted to 10%)
+        "editor.selectionBackground": "#ABCDE31A",
 
         // AUTOMATIC MATCHES: Invisible
         "editor.selectionHighlightBackground": "#00000000",
