@@ -1,75 +1,77 @@
 {
-    "name": "SaloMonK Elemental Final v6 - True Teal with Python-Specific Adjustments",
+    "name": "Harper - Teal Hybrid Final (Perfected Comments)",
     "type": "dark",
     "colors": {
-        "editor.background": "#1b1b1b",
-        "editor.foreground": "#D8D8D8",
-        "editor.lineHighlightBackground": "#232323",
-        "editorCursor.foreground": "#70C0BF",
+        // BACKGROUND: Soft Charcoal
+        "editor.background": "#232323",
+        "editor.foreground": "#CFCBC4",
+        
+        // HIGHLIGHTS
+        "editor.lineHighlightBackground": "#2F2F2F",
+        
+        "editorCursor.foreground": "#D89D38",
 
-        // SELECTION: Distinct Teal (Opacity 55)
-        // This is the only thing that will have color in your editor.
-        "editor.selectionBackground": "#426e6e55",
+        // SELECTION: Deep Gold (Opacity 40)
+        "editor.selectionBackground": "#D89D3866",
 
         // AUTOMATIC MATCHES: Invisible
-        // Prevents other words from lighting up when you select text.
         "editor.selectionHighlightBackground": "#00000000",
 
-        // VARIABLE HIGHLIGHTS: Dark Grey
-        // When you click a variable, other instances become slightly lighter grey.
-        // No color, just contrast.
-        "editor.wordHighlightBackground": "#2A2A2A",
-        "editor.wordHighlightStrongBackground": "#2A2A2A",
+        // VARIABLE HIGHLIGHTS
+        "editor.wordHighlightBackground": "#353535",
+        "editor.wordHighlightStrongBackground": "#353535",
 
-        // UI Colors (kept exactly as you like them)
-        "activityBarBadge.background": "#70C0BF",
-        "activityBarBadge.foreground": "#ffffff",
-        "sideBarTitle.foreground": "#C0C0C0",
-        "sideBar.background": "#1b1b1b",
-        "sideBar.foreground": "#C0C0C0",
-        "statusBar.background": "#1b1b1b",
-        "statusBar.foreground": "#C0C0C0",
-        "titleBar.activeBackground": "#1b1b1b",
-        "titleBar.activeForeground": "#C0C0C0",
-        "editorGroupHeader.tabsBackground": "#1b1b1b",
-        "tab.activeBackground": "#232323",
-        "tab.activeForeground": "#ffffff",
-        "tab.activeBorderTop": "#96fffd",
-        "tab.inactiveBackground": "#1b1b1b",
-        "tab.inactiveForeground": "#A0A0A0"
-},
+        // UI Colors
+        "activityBarBadge.background": "#D89D38",
+        "activityBarBadge.foreground": "#151515",
+        "sideBarTitle.foreground": "#909090",
+        "sideBar.background": "#232323",
+        "sideBar.foreground": "#A8A49D",
+        "statusBar.background": "#232323",
+        "statusBar.foreground": "#909090",
+        "titleBar.activeBackground": "#232323",
+        "titleBar.activeForeground": "#A8A49D",
+        "editorGroupHeader.tabsBackground": "#232323",
+        
+        // TABS
+        "tab.activeBackground": "#2F2F2F",
+        "tab.activeForeground": "#FEFBEA",
+        "tab.activeBorderTop": "#D89D38",
+        "tab.inactiveBackground": "#232323",
+        "tab.inactiveForeground": "#726E6A"
+    },
     "tokenColors": [
         {
-            "name": "Comment (Neutral Grey Italic)",
+            "name": "Comment (Mid-tone Warm Grey)",
             "scope": [
                 "comment",
                 "punctuation.definition.comment"
             ],
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#959595"
+                "foreground": "#A29E99"
             }
         },
         {
-            "name": "Quoted Strings (Lighter Silver)",
+            "name": "Quoted Strings (Harper Green)",
             "scope": [
                 "string.quoted"
             ],
             "settings": {
-                "foreground": "#CCCCCC"
+                "foreground": "#489E48"
             }
         },
         {
-            "name": "Base Source (Silver)",
+            "name": "Base Source (Warm Silver)",
             "scope": [
                 "source"
             ],
             "settings": {
-                "foreground": "#D8D8D8"
+                "foreground": "#CFCBC4"
             }
         },
         {
-            "name": "Normal Text/Punctuation (Lighter Grey)",
+            "name": "Normal Text/Punctuation (Dimmed Grey)",
             "scope": [
                 "variable",
                 "punctuation",
@@ -81,7 +83,7 @@
                 "meta.delimiter"
             ],
             "settings": {
-                "foreground": "#B8B8B8",
+                "foreground": "#A8A49D",
                 "fontStyle": ""
             }
         },
@@ -103,7 +105,7 @@
             }
         },
         {
-            "name": "Keywords & Storage (True Teal)",
+            "name": "Keywords & Storage (Teal)",
             "scope": [
                 "keyword",
                 "keyword.control",
@@ -113,12 +115,12 @@
                 "storage.type"
             ],
             "settings": {
-                "foreground": "#80dfdd",
+                "foreground": "#70C0BF",
                 "fontStyle": "normal"
             }
         },
         {
-            "name": "Classes (Darker Teal Italic)",
+            "name": "Classes (Warm Silver Bold Italic)",
             "scope": [
                 "entity.name.type",
                 "support.class",
@@ -127,26 +129,26 @@
                 "entity.name.class"
             ],
             "settings": {
-                "foreground": "#ffffff",
+                "foreground": "#CFCBC4",
                 "fontStyle": "bold italic"
             }
         },
         {
-        "name": "Functions (Pure White Bold Italic)",
-        "scope": [
-            "meta.function-call",
-            "entity.name.function",
-            "variable.function",
-            "support.function",
-            "keyword.other.special-method"
-        ],
-        "settings": {
-            "foreground": "#00c5b5",
-            "fontStyle": "italic"
-        }
-    },
+            "name": "Functions (Deep Gold Italic)",
+            "scope": [
+                "meta.function-call",
+                "entity.name.function",
+                "variable.function",
+                "support.function",
+                "keyword.other.special-method"
+            ],
+            "settings": {
+                "foreground": "#D89D38",
+                "fontStyle": "italic"
+            }
+        },
         {
-            "name": "Template Strings / Symbols (True Teal)",
+            "name": "Template Strings / Symbols (Harper Blue)",
             "scope": [
                 "string",
                 "string.template",
@@ -154,11 +156,11 @@
                 "constant.other.key"
             ],
             "settings": {
-                "foreground": "#70C0BF"
+                "foreground": "#7FB5E1"
             }
         },
         {
-            "name": "Numbers & Constants (Pure White)",
+            "name": "Numbers & Constants (Harper Lime)",
             "scope": [
                 "constant.numeric",
                 "constant.language",
@@ -168,22 +170,22 @@
                 "keyword.other.unit"
             ],
             "settings": {
-                "foreground": "#ffffff"
+                "foreground": "#D6DA25"
             }
         },
         {
-            "name": "Attributes (True Teal Normal)",
+            "name": "Attributes (Harper Blue Normal)",
             "scope": [
                 "entity.other.attribute-name",
                 "variable.parameter"
             ],
             "settings": {
-                "foreground": "#70C0BF",
+                "foreground": "#7FB5E1",
                 "fontStyle": ""
             }
         },
         {
-            "name": "Tags (Darker Teal)",
+            "name": "Tags (Dark Teal)",
             "scope": [
                 "entity.name.tag",
                 "meta.tag.sgml"
@@ -193,7 +195,7 @@
             }
         },
         {
-            "name": "JSON Keys (True Teal)",
+            "name": "JSON Keys (Teal)",
             "scope": [
                 "support.type.property-name.json"
             ],
@@ -202,33 +204,33 @@
             }
         },
         {
-            "name": "Markdown - Heading (White Bold)",
+            "name": "Markdown - Heading (Cream Bold)",
             "scope": [
                 "markdown.heading",
                 "markup.heading | markup.heading entity.name"
             ],
             "settings": {
-                "foreground": "#ffffff",
+                "foreground": "#FEFBEA",
                 "fontStyle": "bold"
             }
         },
         {
-            "name": "Markdown - Link (True Teal)",
+            "name": "Markdown - Link (Harper Blue)",
             "scope": [
                 "string.other.link.title.markdown"
             ],
             "settings": {
-                "foreground": "#70C0BF"
+                "foreground": "#7FB5E1"
             }
         },
         {
-            "name": "Invalid (Bold White)",
+            "name": "Invalid (Bold Cream)",
             "scope": [
                 "invalid",
                 "invalid.illegal"
             ],
             "settings": {
-                "foreground": "#ffffff",
+                "foreground": "#FEFBEA",
                 "fontStyle": "bold"
             }
         }
