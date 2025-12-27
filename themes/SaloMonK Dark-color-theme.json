@@ -49,7 +49,7 @@
                 "punctuation.definition.comment"
             ],
             "settings": {
-                "fontStyle": "italic",
+                "fontStyle": "",
                 "foreground": "#A29E99"
             }
         },
@@ -89,14 +89,14 @@
             }
         },
         {
-            "name": "Python Source Override (No Italic)",
+            "name": "Python Source Override (No )",
             "scope": "source.python",
             "settings": {
                 "fontStyle": ""
             }
         },
         {
-            "name": "Python Function Call Override (No Italic)",
+            "name": "Python Function Call Override (No )",
             "scope": [
                 "meta.function-call.python",
                 "meta.function-call.arguments.python"
@@ -121,7 +121,7 @@
             }
         },
         {
-            "name": "Classes (Pale Platinum Bold Italic)",
+            "name": "Classes (Pale Platinum Bold )",
             "scope": [
                 "entity.name.type",
                 "support.class",
@@ -131,11 +131,11 @@
             ],
             "settings": {
                 "foreground": "#E6E4E1",
-                "fontStyle": "bold italic"
+                "fontStyle": "bold "
             }
         },
         {
-            "name": "Functions (Clear Sky Slate Italic)",
+            "name": "Functions (Clear Sky Slate )",
             "scope": [
                 "meta.function-call",
                 "entity.name.function",
@@ -145,7 +145,7 @@
             ],
             "settings": {
                 "foreground": "#ABCDE3",
-                "fontStyle": "italic"
+                "fontStyle": ""
             }
         },
         {
