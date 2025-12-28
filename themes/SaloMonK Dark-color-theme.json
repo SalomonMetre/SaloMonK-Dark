@@ -1,74 +1,69 @@
 {
-    "name": "Harper - Teal Hybrid Final (Night Onyx)",
+    "name": "Harper - Teal Hybrid Soft (Eye Comfort)",
     "type": "dark",
     "colors": {
-        // BACKGROUND: Night Onyx (Near-Black Void)
-        "editor.background": "#111111",
-        "editor.foreground": "#E6E4E1",
-        
-        // HIGHLIGHTS: Dark Charcoal
-        "editor.lineHighlightBackground": "#1F1F1F",
-        
-        // CURSOR: Clear Sky Slate
-        "editorCursor.foreground": "#ABCDE3",
+        // Gentle near-black with slight warmth
+        "editor.background": "#151515",
+        "editor.foreground": "#E8E6E3",
 
-        // SELECTION: Clear Sky Slate (Opacity Reverted to 10%)
-        "editor.selectionBackground": "#ABCDE31A",
+        // Softer line highlight
+        "editor.lineHighlightBackground": "#1e1e1e",
 
-        // AUTOMATIC MATCHES: Invisible
+        // Muted but still elegant cursor
+        "editorCursor.foreground": "#9ABBD9",
+
+        // Very soft selection (same hue, much lower opacity)
+        "editor.selectionBackground": "#9ABBD91C",
         "editor.selectionHighlightBackground": "#00000000",
 
-        // VARIABLE HIGHLIGHTS: Deep Grey
-        "editor.wordHighlightBackground": "#2A2A2A",
-        "editor.wordHighlightStrongBackground": "#2A2A2A",
+        // Subtle word highlights
+        "editor.wordHighlightBackground": "#222222",
+        "editor.wordHighlightStrongBackground": "#222222",
 
-        // UI Colors
-        "activityBarBadge.background": "#ABCDE3",
+        // UI elements – toned down vibrance
+        "activityBarBadge.background": "#9ABBD9",
         "activityBarBadge.foreground": "#151515",
-        "sideBarTitle.foreground": "#909090",
-        "sideBar.background": "#111111",
-        "sideBar.foreground": "#A8A49D",
-        "statusBar.background": "#111111",
-        "statusBar.foreground": "#909090",
-        "titleBar.activeBackground": "#111111",
-        "titleBar.activeForeground": "#A8A49D",
-        "editorGroupHeader.tabsBackground": "#111111",
-        
-        // TABS
-        "tab.activeBackground": "#1F1F1F",
-        "tab.activeForeground": "#FEFBEA",
-        "tab.activeBorderTop": "#ABCDE3",
-        "tab.inactiveBackground": "#111111",
-        "tab.inactiveForeground": "#726E6A"
+
+        "sideBar.background": "#151515",
+        "sideBar.foreground": "#B0ACA5",
+        "sideBarTitle.foreground": "#858585",
+
+        "statusBar.background": "#151515",
+        "statusBar.foreground": "#858585",
+
+        "titleBar.activeBackground": "#151515",
+        "titleBar.activeForeground": "#B0ACA5",
+
+        "editorGroupHeader.tabsBackground": "#151515",
+
+        // Tabs – softer active state
+        "tab.activeBackground": "#1e1e1e",
+        "tab.activeForeground": "#FDFAF1",
+        "tab.activeBorderTop": "#9ABBD9",
+        "tab.inactiveBackground": "#151515",
+        "tab.inactiveForeground": "#7A766F"
     },
     "tokenColors": [
         {
             "name": "Comment (Mid-tone Warm Grey)",
-            "scope": [
-                "comment",
-                "punctuation.definition.comment"
-            ],
+            "scope": ["comment", "punctuation.definition.comment"],
             "settings": {
-                "fontStyle": "",
-                "foreground": "#A29E99"
+                "foreground": "#A29E99",
+                "fontStyle": "italic"
             }
         },
         {
             "name": "Quoted Strings (Pale Slate Brown)",
-            "scope": [
-                "string.quoted"
-            ],
+            "scope": ["string.quoted"],
             "settings": {
-                "foreground": "#D6C9C0"
+                "foreground": "#D3C5BC"
             }
         },
         {
             "name": "Base Source (Pale Platinum)",
-            "scope": [
-                "source"
-            ],
+            "scope": ["source"],
             "settings": {
-                "foreground": "#E6E4E1"
+                "foreground": "#E8E6E3"
             }
         },
         {
@@ -84,29 +79,11 @@
                 "meta.delimiter"
             ],
             "settings": {
-                "foreground": "#A8A49D",
-                "fontStyle": ""
+                "foreground": "#B0ACA5"
             }
         },
         {
-            "name": "Python Source Override (No )",
-            "scope": "source.python",
-            "settings": {
-                "fontStyle": ""
-            }
-        },
-        {
-            "name": "Python Function Call Override (No )",
-            "scope": [
-                "meta.function-call.python",
-                "meta.function-call.arguments.python"
-            ],
-            "settings": {
-                "fontStyle": ""
-            }
-        },
-        {
-            "name": "Keywords & Storage (Teal)",
+            "name": "Keywords & Storage (Soft Teal)",
             "scope": [
                 "keyword",
                 "keyword.control",
@@ -116,12 +93,12 @@
                 "storage.type"
             ],
             "settings": {
-                "foreground": "#70C0BF",
+                "foreground": "#66B0B0",
                 "fontStyle": "normal"
             }
         },
         {
-            "name": "Classes (Pale Platinum Bold )",
+            "name": "Classes (Pale Platinum Bold)",
             "scope": [
                 "entity.name.type",
                 "support.class",
@@ -130,12 +107,12 @@
                 "entity.name.class"
             ],
             "settings": {
-                "foreground": "#E6E4E1",
-                "fontStyle": "bold "
+                "foreground": "#E8E6E3",
+                "fontStyle": "bold"
             }
         },
         {
-            "name": "Functions (Clear Sky Slate )",
+            "name": "Functions (Soft Clear Sky Slate)",
             "scope": [
                 "meta.function-call",
                 "entity.name.function",
@@ -144,12 +121,11 @@
                 "keyword.other.special-method"
             ],
             "settings": {
-                "foreground": "#ABCDE3",
-                "fontStyle": ""
+                "foreground": "#9ABBD9"
             }
         },
         {
-            "name": "Template Strings / Symbols (Harper Blue)",
+            "name": "Template Strings / Symbols (Soft Harper Blue)",
             "scope": [
                 "string",
                 "string.template",
@@ -157,11 +133,11 @@
                 "constant.other.key"
             ],
             "settings": {
-                "foreground": "#7FB5E1"
+                "foreground": "#8CA8D6"
             }
         },
         {
-            "name": "Numbers & Constants (Harper Lime)",
+            "name": "Numbers & Constants (Soft Harper Lime)",
             "scope": [
                 "constant.numeric",
                 "constant.language",
@@ -171,67 +147,54 @@
                 "keyword.other.unit"
             ],
             "settings": {
-                "foreground": "#D6DA25"
+                "foreground": "#C2C520"
             }
         },
         {
-            "name": "Attributes (Harper Blue Normal)",
+            "name": "Attributes (Soft Harper Blue)",
             "scope": [
                 "entity.other.attribute-name",
                 "variable.parameter"
             ],
             "settings": {
-                "foreground": "#7FB5E1",
-                "fontStyle": ""
+                "foreground": "#8CA8D6"
             }
         },
         {
-            "name": "Tags (Dark Teal)",
-            "scope": [
-                "entity.name.tag",
-                "meta.tag.sgml"
-            ],
+            "name": "Tags (Dark Teal – softened)",
+            "scope": ["entity.name.tag", "meta.tag.sgml"],
             "settings": {
-                "foreground": "#5A9A98"
+                "foreground": "#518988"
             }
         },
         {
-            "name": "JSON Keys (Teal)",
-            "scope": [
-                "support.type.property-name.json"
-            ],
+            "name": "JSON Keys (Soft Teal)",
+            "scope": ["support.type.property-name.json"],
             "settings": {
-                "foreground": "#70C0BF"
+                "foreground": "#66B0B0"
             }
         },
         {
             "name": "Markdown - Heading (Cream Bold)",
-            "scope": [
-                "markdown.heading",
-                "markup.heading | markup.heading entity.name"
-            ],
+            "scope": ["markdown.heading", "markup.heading | markup.heading entity.name"],
             "settings": {
-                "foreground": "#FEFBEA",
+                "foreground": "#FDFAF1",
                 "fontStyle": "bold"
             }
         },
         {
-            "name": "Markdown - Link (Harper Blue)",
-            "scope": [
-                "string.other.link.title.markdown"
-            ],
+            "name": "Markdown - Link (Soft Harper Blue)",
+            "scope": ["string.other.link.title.markdown"],
             "settings": {
-                "foreground": "#7FB5E1"
+                "foreground": "#8CA8D6",
+                "fontStyle": "underline"
             }
         },
         {
             "name": "Invalid (Bold Cream)",
-            "scope": [
-                "invalid",
-                "invalid.illegal"
-            ],
+            "scope": ["invalid", "invalid.illegal"],
             "settings": {
-                "foreground": "#FEFBEA",
+                "foreground": "#FDFAF1",
                 "fontStyle": "bold"
             }
         }
