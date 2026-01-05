@@ -34,7 +34,7 @@
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "foreground": "#928374",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -49,7 +49,7 @@
       "scope": ["string.quoted.docstring.multi.python", "string.quoted.multi.python"],
       "settings": {
         "foreground": "#d5c4a1",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
